@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: n8n-deploy
-    env: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    startCommand: npx n8n start --tunnel
